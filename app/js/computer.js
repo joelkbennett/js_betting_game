@@ -1,3 +1,7 @@
-var Computer = {
-  
+var computer = {
+
 }
+
+computer.init({
+  
+});

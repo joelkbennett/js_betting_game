@@ -19,3 +19,11 @@ Player.prototype.addBankroll = function(amount) {
 Player.prototype.reduceBankroll = function(amoutn) {
 
 }
+
+Player.prototype.askForName = function(name) {
+
+}
+
+Player.prototype.init = function() {
+
+}
