@@ -19,6 +19,10 @@ var gameBoard = {
 
   payout: function() {
 
+  },
+
+  restart: function() {
+
   }
 }
 
