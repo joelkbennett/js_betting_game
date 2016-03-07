@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Pusab';
+  src: url('fonts/pusab.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'Pusab', sans-serif;
+}
