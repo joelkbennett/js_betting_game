@@ -1,8 +1,27 @@
 @font-face {
   font-family: 'Pusab';
-  src: url('fonts/pusab.ttf')  format('truetype');
+  src: url('../fonts/pusab.ttf')  format('truetype');
 }
 
 body {
   font-family: 'Pusab', sans-serif;
+}
+
+button {
+  border: none;
+  border-radius: .5em;
+  border-bottom: 10px solid #999;
+  padding: .5em 1em;
+  margin-top: 1em;
+}
+
+button:hover {
+  border-top: 10px solid #999;
+  border-bottom: none;
+}
+
+.site-title {
+  color: white;
+  margin: 0;
+  text-shadow: 5px 5px 0px rgb(100, 100, 100);
 }

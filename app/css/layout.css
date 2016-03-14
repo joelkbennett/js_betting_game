@@ -1,16 +1,18 @@
 .section-inner {
   width: 1160px;
   margin: 0 auto;
+  position: relative;
 }
 
 .site-header {
-  background-color: #333;
+  background-color: #129D83;
   text-align: center;
+  padding: 2em 0;
 }
 
 .site-footer {
-  background-color: #ddd;
-  min-height: 200px;
+  background-color: #055042;
+  min-height: 400px;
 }
 
 body.no-game {

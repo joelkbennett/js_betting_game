@@ -1,9 +1,14 @@
 .player {
   width: 350px;
-  border: thin solid #333;
+  border: 3px solid #ddd;
   border-radius: 10px;
-  margin: .5em;
+  margin-left: .5em;
+  margin-right: .5em;
   padding: 1em;
+  margin-top: -15px;
+  margin-bottom: -15px;  
+  background-color: white;
+  box-shadow: 5px 5px 0px rgba(0,0,0,.5);
 }
 
 .player-one {
@@ -12,4 +17,14 @@
 
 .player-two {
 
+}
+
+input[type='text'] {
+  border: none;
+  border-bottom: thick solid #aaa;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border-color: #333;
 }

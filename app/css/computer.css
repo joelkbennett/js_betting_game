@@ -1,4 +1,18 @@
 .computer {
   background-color: #ddd;
   min-height: 300px;
+  text-align: center;
+}
+
+.computer-avatar {
+  margin-top: 2em;
+  fill: #0388D0;
+}
+
+.chat-arrow {
+  fill: #aaa;
+  position: absolute;
+  top: 240px;
+  transform: rotate(90deg);
+  left: 560px;
 }
